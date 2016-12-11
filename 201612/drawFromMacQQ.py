@@ -61,8 +61,8 @@ def simulate_draw(base_url, draw_url, num, list_prize_id):
 
 
 def main():
-    draw_url = 'https://act.futunn.com/mac-draw/draw'  # postUrl
-    base_url = 'https://act.futunn.com/mac-draw/get-status?_=1481199470060'
+    draw_url = 'xxx'  # postUrl
+    base_url = 'xxx'
     list_prize_id = [1, 2, 3, 4, 5, 6, 7, 8]  # 奖项id类别
     num = 1
     list_total = simulate_draw(base_url, draw_url, num, list_prize_id)
