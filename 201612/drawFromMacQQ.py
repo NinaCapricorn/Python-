@@ -1,5 +1,4 @@
 # coding=utf-8
-# from __future__ import division
 import urllib2
 import urllib
 import cookielib
