@@ -19,7 +19,7 @@
 
  2. 模拟post请求
  ```
- 1). 模拟post请求的时候，若data为空，也不能省略；以data={}的形式post；
+ 1). 模拟post请求的时候，若data为空，也不能省略；以data={}的形式模拟post请求；
  2). urllib2.urlopen(req),其中req可以为基本url，也可是包含data数据的Request格式
  ```
  
