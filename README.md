@@ -9,7 +9,7 @@
 ```
 
 ### 知识点：
-1. cookies信息保存
+* cookies信息保存
 ```python
  import cookielib
  import urllib2
@@ -18,7 +18,7 @@
  urllib2.install_opener(opener) 
 ```
 
-2. 模拟post请求
+* 模拟post请求
 ```
  1). 模拟post请求的时候，若data为空，也不能省略；以data={}的形式模拟post请求；
  2). urllib2.urlopen(req),其中req可以为基本url，也可是包含data数据的Request格式
@@ -36,5 +36,5 @@
  content = json.loads(result.read()) # json
 ```
 
-3. 概率统计：**for循环语句**
+* 概率统计：**for循环语句**
 
