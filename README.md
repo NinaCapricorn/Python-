@@ -11,11 +11,11 @@
 ### 知识点：
 * cookies信息保存
 ```python
- import cookielib
- import urllib2
- cookie = cookielib.CookieJar()
- opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
- urllib2.install_opener(opener) 
+import cookielib
+import urllib2
+cookie = cookielib.CookieJar()
+opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
+urllib2.install_opener(opener) 
 ```
 
 * 模拟post请求
@@ -25,15 +25,15 @@
 ```
  
 ```python
- import urllib2
- import urllib
- import json
- url = 'xxx'
- data = {} # dict
- post_data = urllib.urlencode(data)
- req = urllib2.Request(url, post_data)
- result = urllib2.urlopen(req)
- content = json.loads(result.read()) # json
+import urllib2
+import urllib
+import json
+url = 'xxx'
+data = {} # dict
+post_data = urllib.urlencode(data)
+req = urllib2.Request(url, post_data)
+result = urllib2.urlopen(req)
+content = json.loads(result.read()) # json
 ```
 
 * 概率统计：**for循环语句**
