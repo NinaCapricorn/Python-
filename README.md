@@ -1,6 +1,6 @@
 # Python学习日志
 
-1. **201612W2---抽奖概率统计**
+## **201612W2---抽奖概率统计**
 ```
  抽奖概率设计思想：
  * 场景1：根据奖品数量和设定的抽奖概率，执行相应次数的抽奖，对抽奖结果进行统计
@@ -16,11 +16,13 @@
  opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
  urllib2.install_opener(opener) 
 ```
+
  2. 模拟post请求
  ```
  1). 模拟post请求的时候，若data为空，也不能省略；以data={}的形式post；
  2). urllib2.urlopen(req),其中req可以为基本url，也可是包含data数据的Request格式
  ```
+ 
  ```python
  import urllib2
  import urllib
@@ -32,5 +34,6 @@
  result = urllib2.urlopen(req)
  content = json.loads(result.read()) # json
  ```
+ 
  3. 概率统计：**for循环语句**
 
