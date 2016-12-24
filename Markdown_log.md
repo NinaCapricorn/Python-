@@ -100,8 +100,9 @@
 	4. 图片
 	```
 	插入图片：
-	![Optional](图片URL)
+	![Optional](图片URL) 或者 ![Optional](图片路径)
 	例如：![image1](http://i.imgur.com/adffGUM.png)
+	     ![image1](pic.png)
 	```
 * 其它
 	1. 任务清单
