@@ -1,4 +1,6 @@
 # coding=utf-8
+
+
 # 函数定义
 def init(data):
     data['first'] = {}
