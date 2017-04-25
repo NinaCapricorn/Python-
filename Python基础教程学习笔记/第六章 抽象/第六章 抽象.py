@@ -65,3 +65,30 @@ def interval(start, stop=None, step=1):
         result.append(i)
         i += step
     return result
+
+
+# 函数调用
+def foo():
+    """ Just a test on foo()... """
+    print 'In foo()...'
+    bar()
+
+
+def bar():
+    bar.__doc__ = 'Just a test on bar()...'
+    print 'In bar()...'
+
+foo()
+
+
+# 参数传递
+def convert(func, seq):
+    return [func(eachNum) for eachNum in seq]
+my_seq = [123, 45.67, -6.28e8, 99999999L]
+print convert(int, my_seq)
+print convert(long, my_seq)
+
+print max((1, -2))
+
+
+
